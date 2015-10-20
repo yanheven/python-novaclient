@@ -918,7 +918,7 @@ def main():
               file=sys.stderr)
         sys.exit(1)
     except KeyboardInterrupt:
-        print("... terminating nova client", file=sys.stderr)
+        print("terminating nova client...", file=sys.stderr)
         sys.exit(130)
 
 
